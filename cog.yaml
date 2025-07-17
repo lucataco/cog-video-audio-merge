@@ -1,0 +1,19 @@
+# Configuration for Cog ⚙️
+# Reference: https://cog.run/yaml
+
+build:
+  gpu: false
+  python_version: "3.11"
+  system_packages:
+    - ffmpeg
+
+  # path to a Python requirements.txt file
+  python_requirements: requirements.txt
+
+  # commands run after the environment is setup
+  # run:
+  #   - "echo env is ready!"
+  #   - "echo another command if needed"
+
+# predict.py defines how predictions are run on your model
+predict: "predict.py:Predictor"
