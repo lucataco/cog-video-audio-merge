@@ -184,3 +184,7 @@ This model is built using:
 - **Python**: Core logic and error handling
 
 To run locally, ensure you have FFmpeg installed and the required Python packages.
+
+## License
+
+The code in this repository is licensed under the [Apache License 2.0](LICENSE).
